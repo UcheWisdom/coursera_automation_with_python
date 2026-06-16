@@ -25,10 +25,10 @@ import datetime
 # os.path.exists("./spider_renamed.txt")
 
 #This code will provide the file size
-os.path.getsize("spider.txt")
+print(os.path.getsize("spider.txt"))
 
 #This code will provide a unix timestamp for the file unix timestamps
-os.path.getmtime("spider.txt")
+print(os.path.getmtime("spider.txt"))
 
 #This code will provide the date and time for the file in an 
 #easy-to-understand format
@@ -37,4 +37,4 @@ print(datetime.datetime.fromtimestamp(timestamp))
 
 
 #This code takes the file name and turns it into an absolute path
-os.path.abspath("spider.txt")
+print(os.path.abspath("spider.txt"))
