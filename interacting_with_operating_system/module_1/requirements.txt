@@ -1,4 +1,10 @@
-virtualenv
-pip
-setuptools
-wheel
+On windows using bash terminal
+source myenv\Scripts\activate
+
+To end the virtual environment use this command
+deactivate
+
+To update pip use this command
+python.exe -m pip install --upgrade pip
+
+python -m pip install psutil
